@@ -1,0 +1,20 @@
+# 忽略所有模型权重文件（通常是以 .bin 结尾）
+*.bin
+
+# 忽略 PyTorch 模型保存的整个文件夹（如果整个文件夹都是模型输出）
+bert-for-mrpc/
+bert-for-sst2/
+
+# 也可以忽略缓存和数据集下载缓存（可选）
+.cache/
+.huggingface/
+__pycache__/
+*.pyc
+
+# 忽略训练日志和输出日志（如果你有 .log 文件）
+*.log
+
+# 忽略虚拟环境或 conda 环境文件夹（可选）
+venv/
+env/
+.venv/
