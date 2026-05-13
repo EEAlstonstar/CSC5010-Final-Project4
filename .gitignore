@@ -1,6 +1,7 @@
 # 忽略所有模型权重文件（通常是以 .bin 结尾）
 *.bin
-
+*.pth
+*.pt
 # 忽略 PyTorch 模型保存的整个文件夹（如果整个文件夹都是模型输出）
 bert-for-mrpc/
 bert-for-sst2/
